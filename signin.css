@@ -1,0 +1,31 @@
+form{
+    margin:0 auto;
+    padding: 40px;
+    width: 30%;
+    border: solid 2px;
+}
+.Input{
+    border-radius: 10px;
+    border: solid 1px;
+    height: 40px;
+    width: 350px;
+    padding: 0 4%;
+}
+button{
+    width: 400px;
+    height: 40px;
+    background-color: #252161;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    font-size: 17px;
+}
+b{
+    font-size: 25px;
+}
+h1{
+    color: #252161;
+    font-size: 40px;
+}
