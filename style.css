@@ -6,6 +6,10 @@ body{
     color: white;
     margin: 2% 0;
 }
+#intro a{
+    text-decoration: none;
+    color: white;
+}
 #navbar{
     display: flex;
     gap: 12%;
@@ -48,8 +52,9 @@ button{
     margin-left: 1%;
     color: white;
     font-size: 20px;
+    border-radius: 20px;
+    border: solid ;
 }
-
 
 /* Mentor's page */
 
@@ -57,9 +62,12 @@ button{
     background-color: #85A68D;
     padding: 1% 3%;
     margin:1% 0;
+    display: flex;
+    gap: 7%;
 }
 #mentor h1{
     color: white;
+    margin-top: 2%;
 }
 #mentors-profile{
     display: flex;
@@ -71,8 +79,6 @@ button{
     border-radius: 100px;
     margin-top: 40%;
     margin-left: 20%;
-}
-#mentors-image{
 }
 #titles{
     /* border: solid 2px; */
@@ -98,13 +104,16 @@ button{
     background-color: #85A68D;
     padding: 1% 3%;
     margin:1% 0;
+    display: flex;
+    gap: 8%;
 }
 .view-button{
     background-color: #5D2E8C;
-    height: 42px;
-    width: 120px;
+    height: 40px;
+    width: 80px;
     border-radius: 20px;
     border: solid 2px;
+    margin-left: 2%;
 }
 input{
     height: 42px;
@@ -124,8 +133,8 @@ input{
 }
 .book{
     text-decoration: none;
-    color: green;
-    font-size: 25px;
+    font-size: 15px;
+    color: white;
 }
 .lists{
     font-size: 25px;
@@ -139,8 +148,8 @@ input{
     margin-left: 30%;
 }
 #summary{
-    font-size: 17px;
-    padding-left: 1%;
+    font-size: 25px;
+    padding: 2% 10%;
 }
 #review{
     background-color: #85A68D;
@@ -150,3 +159,174 @@ input{
     color: white;
 }
 
+/* Goals */
+#goals{
+    display: flex;
+    gap: 20%;
+    margin-left: 50px;
+}
+#goalsHeading{
+    background-color: #85A68D;
+    color: white;
+    padding: 1% 3%;
+    margin: 1% 0%;
+    display: flex;
+    gap: 10%;
+}
+
+/* media queries */
+@media (min-width:200px) and (max-width:430px){
+    #about-section a{
+        margin: 3% 0;
+        font-size: 8px;
+    }
+    #navbar{
+        gap: 1%;
+        flex-wrap: wrap;
+        width: 240px;
+    }
+    #logo{
+        margin-top: 1%;
+    }
+    .logo{
+        width: 80px;
+        height: 45px;
+    }
+    #about-section{
+        gap: 7%;
+        /* border: solid 2px; */
+    }
+    #landing-section{
+        display: flex;
+        gap: 4%;
+        margin-top: 3%;
+    }
+    .main-image{
+        width: 80px;
+        height: 90px;
+    }
+    h1{
+        font-size: 9px;
+    }
+    button{
+        height: 40px;
+        width: 90px;
+        font-size: 10px;
+    }
+
+    #mentor{
+        padding: 1% 3%;
+        margin:1% 0;
+        display: flex;
+        gap: 2%;
+    }
+    #mentor a{
+        font-size: 7px;
+        margin-bottom: 3%;
+    }
+    #mentor h1{
+        color: white;
+        font-size: 11px;
+    }
+    #mentors-profile{
+        display: flex;
+        gap: 12%;
+    }
+    .Charity{
+        width: 100px;
+        height: 130px;
+        border-radius: 100px;
+        margin-top: 40%;
+        margin-left: 20%;
+    }
+    #titles{
+        /* border: solid 2px; */
+        margin-top: 7%;
+    }
+    #titles h2{
+        font-size: 12px;
+    }
+    #information{
+        /* border: solid 2px; */
+        margin-top: 7%;
+    }
+    #information p{
+        font-size: 11px;
+    }
+
+    
+    #To-Do{
+        color: white;
+        font-size: 10px;
+    }
+    #achievements a{
+        font-size: 7px;
+        margin-bottom: 15%;
+    }
+    #achievements{
+        background-color: #85A68D;
+        padding: 1% 3%;
+        margin:1% 0;
+        display: flex;
+        gap: 2%;
+    }
+    input{
+        height: 42px;
+        width: 600px;
+        border-radius: 20px;
+        border: solid 1px ;
+        font-size: 15px;
+        padding: 0 2%;
+    }
+    #tasks{
+        margin: 0 2%;
+    }
+    .checkbox{
+        width: 10px;
+        height: 10px;
+        margin-top: 6%;
+    }
+    .book{
+        font-size: 15px;
+    }
+    .lists{
+        font-size: 15px;
+    }
+
+    .bornToCrime{
+        height: 260px;
+        width: 200px;
+        margin-left: 20%;
+    }
+    #summary{
+        font-size: 15px;
+        padding: 2% 10%;
+    }
+    #review{
+        background-color: #85A68D;
+        height: 70px;
+        padding-top: 1%;
+        padding-left: 1%;
+        color: white;
+    }
+
+    #goals{
+        display: flex;
+        gap: 10%;
+        margin-left: 20px;
+    }
+    #about-section a{
+        font-size: 7px;
+    }
+    
+}
+
+@media (min-width:540px) and(max-width:700px){
+    #navbar{
+        display: flex;
+        gap: 12%;
+        padding-left: 2%;
+        background-color: #85A68D;
+        height: 100px;
+    }
+}

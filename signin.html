@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="signin.css">
-
     <title>Sign In</title>
 </head>
 <body>
-    <p><b>Welcome to Mentorat!</b></p>
-    <p>Didn't have an account? <a href="signup.html">Sign Up</a></p>
+    <p class="welcome"><b>Welcome to Mentorat!</b></p>
+    <p class="account">Didn't have an account? <a href="signup.html">Sign Up</a></p>
     <form>
         <h1>Sign In</h1>
         <label for="username">Name:</label>
@@ -21,7 +20,7 @@
         <label for="password">Password</label>
         <br/>
         <br/>
-        <input name="password" type="password" placeholder="Password" class="Input"/>
+        <input name="password" type="password" placeholder="Password" class="Input" required/>
         <br/>
         <br/>
         <input type="checkbox"/>
@@ -29,7 +28,7 @@
         <br/>
         <br/>
         <br/>
-        <button type="submit">Sign Up</button>
+        <button type="submit"><a href="./index.html" class="signin">Sign In</a></button>
 
     </form>  
 </body>
