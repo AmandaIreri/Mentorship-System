@@ -25,7 +25,7 @@ body{
 }
 #about-section{
     display: flex;
-    gap: 14%;
+    gap: 20%;
     /* border: solid 2px; */
     width: 80%;
     margin: 1% 0;
@@ -65,6 +65,10 @@ button{
     display: flex;
     gap: 7%;
 }
+#mymentor{
+    text-align: center;
+    text-decoration: underline;
+}
 #mentor h1{
     color: white;
     margin-top: 2%;
@@ -98,7 +102,8 @@ button{
 
 /* To-Do */
 #To-Do{
-    color: white;
+    text-decoration: underline;
+    text-align: center;
 }
 #achievements{
     background-color: #85A68D;
@@ -158,12 +163,42 @@ input{
     padding-left: 1%;
     color: white;
 }
+/* landing */
+#welcome{
+    /* margin-left: 24%; */
+}
+#welcome h1{
+    margin-left: 40%;
+    margin-top: 2%;
+    color: #5D2E8C;
+}
+.image1{
+    margin-left: 25%;
+}
+.button1{
+    margin-left: 48%;
+    width: 150px;
+    border: solid #5D2E8C;
+}
+#welcome a{
+    text-decoration: none;
+    color: white;
+}
+.image1{
+} 
+#hello{
+    background-color: #85A68D;
+}
 
 /* Goals */
 #goals{
     display: flex;
-    gap: 20%;
-    margin-left: 50px;
+    gap: 30%;
+    margin-left: 200px;
+}
+.goals{
+    text-align: center;
+    text-decoration: underline;
 }
 #goalsHeading{
     background-color: #85A68D;
